@@ -24,3 +24,20 @@
     margin: .25em;
   }
 }
+
+.sidebar {
+  background: $secondary-high;
+  padding: 0 1em;
+  .card {
+  background: $secondary;
+  height: 200px;
+  width: 200px;
+  padding: .5em;
+  margin: .5em 0;
+  box-sizing: border-box;
+  }
+}
+
+table.topic-list {
+  display: flex;
+}
