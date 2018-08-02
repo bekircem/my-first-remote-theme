@@ -12,3 +12,15 @@
     font-size: 8em;
     color: $secondary;
 }
+
+@import "common/foundation/variables";
+
+.foobar {
+  display: flex;
+  justify-content: flex-end;
+  background: $secondary-high;
+  padding: .5em 0;
+  button {
+    margin: .25em;
+  }
+}
